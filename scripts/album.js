@@ -1,3 +1,20 @@
+var albumHHC = {
+        title: 'Summer on Fast Forward',
+        artist: 'HHC',
+        label: 'none',
+        year: '2009',
+        albumArtUrl: 'assets/images/album_covers/07.png',
+        songs: [
+                {title: 'Every Second Counts', duration: '0:16'},
+                {title: 'Before This Drive Is Over', duration: '3:27'},
+                {title: 'Spiders', duration: '2:55'},
+                {title: 'My Turn To Win', duration: '3:05'},
+                {title: 'Hey Self', duration: '1:50'},
+                {title: 'Automatic Reset', duration: '3:47'},
+                {title: 'Lay Quiet Like Its Night', duration: '3:31'}
+        ]
+};
+
 var albumPicasso = {
     title: 'The Colors',
     artist: 'Pablo Picasso',
@@ -59,6 +76,23 @@ var setCurrentAlbum = function(album) {
     }
 };
     
-    window.onload = function() {
-        setCurrentAlbum(albumPicasso);
-    };
+window.onload = function() {
+    setCurrentAlbum(albumPicasso);
+    
+    var albumList = [albumPicasso, albumMarconi, albumHHC];
+    var index = 1;
+    
+     var albumClick = document.getElementsByClassName('album-cover-art')[0];
+ 
+        albumClick.addEventListener('click', function(event) {
+            setCurrentAlbum(albumList[index]);
+            index++;
+            
+            if(index == albumList.length) {
+                index = 0;
+            }
+        });
+}
+
+ 
+        
