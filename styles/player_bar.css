@@ -169,4 +169,17 @@
     .player-bar .volume {
         min-height: 3.5rem;
     }
+    
+    .player-bar .currently-playing {
+        min-height: 2.5rem;
+    }
+    
+    .player-bar .artist-name,
+    .player-bar .song-name {
+        display: none;
+    }
+    
+    .player-bar .currently-playing .artist-song-mobile {
+        display: block;
+    }
 }
