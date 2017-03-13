@@ -15,6 +15,7 @@ var buildcollectionItemTemplate = function() {
   +'              </div>'
   +'          </div>'
 ;
+    
     return $(template);
 };
 
@@ -31,4 +32,3 @@ $(window).load(function() {
         $collectionContainer.append($newThumbnail);
     }
 });
-            
