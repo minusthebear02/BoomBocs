@@ -310,7 +310,7 @@ var $previousButton = $('.main-controls .previous');
 var $nextButton = $('.main-controls .next');
 
 $(window).ready(function() {
-    setCurrentAlbum(albumPicasso);
+    setCurrentAlbum(albumHHC);
     $nextButton.click(nextSong);
     $previousButton.click(previousSong);
     setupSeekBars();

@@ -27,3 +27,20 @@ var albumMarconi = {
         {title: 'Wrong phone number', duration: '2:15'}
     ]
 };
+
+var albumHHC = {
+    title: 'Summer on Fast Forward',
+    artist: 'Horrible Horrible Creatures',
+    label: 'none',
+    year: '2008',
+    albumArtUrl: 'assets/images/album_covers/HHC cover.png',
+    songs: [
+        {title: 'Every Second Counts', duration: 11, audioUrl: 'assets/music/bloc_jams_music/Every Second Counts'},
+        {title: 'Before This Drive is Over', duration: 187, audioUrl: 'assets/music/bloc_jams_music/Before This Drive is Over'},
+        {title: 'Spiders', duration: 242, audioUrl: 'assets/music/bloc_jams_music/Spiders'},
+        {title: 'My Turn to Win', duration: 267, audioUrl: 'assets/music/bloc_jams_music/My Turn to Win'},
+        {title: 'Hey Self', duration: 136, audioUrl: 'assets/music/bloc_jams_music/Hey Self'},
+        {title: 'Automatic Reset', duration: 215, audioUrl: 'assets/music/bloc_jams_music/Automatic Reset'},
+        {title: 'Lay Quiet Like its Night', duration: 172, audioUrl: 'assets/music/bloc_jams_music/Lay Quiet Like its Night'},
+        ]
+}
